@@ -60,6 +60,11 @@
             <version>4.0.1</version>
         </dependency>
 
+        <dependency>
+            <groupId>io.zipkin.brave</groupId>
+            <artifactId>brave-mysql</artifactId>
+            <version>3.9.0</version>
+        </dependency>
 
     </dependencies>
 
