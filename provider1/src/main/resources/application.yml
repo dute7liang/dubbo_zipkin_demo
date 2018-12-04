@@ -1,0 +1,15 @@
+server:
+  port: 81
+spring:
+  application:
+    name: provider1
+  dubbo:
+    server : true
+    registry : zookeeper://47.107.155.58:2181
+    provider :
+      filter : MyFilter
+    consumer :
+      filter : MyFilter
+    protocol :
+      name : dubbo
+      port : 20880
